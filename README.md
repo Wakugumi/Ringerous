@@ -2,7 +2,7 @@
 
 # Ringerous
 
-Python GUI app to validate a Ring's properties.
+Python GUI app to check a Ring's properties.
 
 ## Who wrote this crap
 
@@ -47,7 +47,9 @@ Finally run the app.
 ### Note
 
 In the app, you can either validate an cyclic group of integers module _n_, where you can enter _n_ in the input box.
-You can also test your own set by using in the "tests" folder, in there you'll find example in JSON files
+You can also test your own set by using in the "tests" folder, in there you'll find example in JSON files.
+You can upload batches of JSON file to be validated.
+You can Export the result in a CSV or TXT file.
 
 ## Contribute
 

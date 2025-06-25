@@ -1,6 +1,0 @@
-##[pylyzer] failed d:\coding environment\ringerous\modules\checker.py 1748061824 1935
-.check_associativity: |Type_149 <: global::Iterable(?T), Type_106 <: Structural({.elements = ?146 and ?149; .mul = ?U; .add = ?T}), T: Type, Type_146 <: global::Iterable(?T), U: Type|(ring: Type_106, op_name: Obj) -> global::Tuple([{True}, {None}])
-.check_identity: |Type_109 <: Structural({.elements = ?250; .mul = ?U; .add = ?T}), T: Type, Type_250 <: global::Iterable(?T), U: Type|(ring: Type_109, op_name: Obj) -> global::Tuple([{False}, {None}])
-.check_inverse: |Type_286 <: global::Iterable(?T), Type_112 <: Structural({.elements = ?286}), T: Type|(ring: Type_112) -> global::Tuple([{True}, {None}])
-.check_distributivity: |E: Type, Type_330 <: global::Iterable(?T), T: Type, Type_114 <: Structural({.elements = ?325 and ?330; .mul = (self: Obj, ?T, ?E) -> ?E; .add = (self: Obj, ?E, ?T) -> ?E}), Type_325 <: global::Iterable(?T)|(ring: Type_114) -> global::Tuple([{True}, {None}])
-.check_all_properties: |Type_109 <: Structural({.elements = ?Type_149 and ?Type_146; .mul = ?U; .add = ?T}), T :> NoneType, T: Type, Type_146 <: global::Iterable(?T), Type_149 <: global::Iterable(?T), U :> Str, U: Type|(ring: Type_109) -> global::Dict!({Str: global::Dict!({Str: U or T})})
