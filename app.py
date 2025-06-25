@@ -44,8 +44,6 @@ class RingCheckerApp:
         self.current_results = None
         self.results_frame.pack()
 
-        
-
     def toggle_mode(self):
         for widget in self.input_frame.winfo_children():
             widget.pack_forget()
