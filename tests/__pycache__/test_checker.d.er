@@ -1,0 +1,19 @@
+##[pylyzer] failed d:\coding environment\ringerous\tests\test_checker.py 1750827906 2277
+.unittest: Never
+
+.___v_desugar_1 = pyimport "ring"
+.ring = pyimport "ring"
+.Ring: {modules.ring.Ring}
+.___v_desugar_2 = pyimport "checker"
+.checker = pyimport "checker"
+.check_all_properties: |U: Type, T :> NoneType, T: Type, Type_110 <: Structural({.elements = ?Type_153 and ?Type_149; .mul = ?U; .add = ?T}), Type_149 <: global::Iterable(?T), U :> Str, Type_153 <: global::Iterable(?T)|(ring: Type_110) -> global::Dict!({Str: global::Dict!({Str: U or T})})
+.TestRingProperties: ClassType
+.TestRingProperties <: Never
+.TestRingProperties.test_modulo_ring_properties: (self: test_checker.TestRingProperties) -> NoneType
+.TestRingProperties.test_custom_ring_properties: (self: test_checker.TestRingProperties) -> NoneType
+.TestRingProperties.test_different_matrix_size: (self: test_checker.TestRingProperties) -> NoneType
+
+
+
+
+

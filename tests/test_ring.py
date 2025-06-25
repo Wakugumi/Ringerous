@@ -50,6 +50,14 @@ class TestRing(unittest.TestCase):
         self.assertEqual(r.mul('b', 'c'), 'c')
         self.assertEqual(r.mul('c', 'c'), 'b')
 
+
+    # Assert test that module Ring should arise exceptionn if modulo is not a natural number
+    def test_n_is_not_natural(self):
+        n = 0
+        self.assertRaises(Exception, Ring, modulo = n)
+
+
+
 if __name__ == '__main__':
     unittest.main()
 

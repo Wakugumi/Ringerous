@@ -1,0 +1,9 @@
+##[pylyzer] failed d:\coding environment\ringerous\modules\ring.py 1748061824 762
+.Ring: ClassType
+.Ring.is_modulo: Never
+.Ring.__call__: (modulo: Obj := Obj, elements: Obj := Obj, add_table: Obj := Obj, mul_table: Obj := Obj) -> modules.ring.Ring
+.Ring.add: |R: Type, O: Type, Type_134 <: Structural({.__add__ = (self: Never, ?R) -> ?O})|(self: modules.ring.Ring, a: Type_134, b: R) -> Never
+.Ring.mul: |Type_138 <: Structural({.__mul__ = (self: Never, ?R) -> ?O}), R: Type, O: Type|(self: modules.ring.Ring, a: Type_138, b: R) -> Never
+
+Type_138, b: R) -> Never
+

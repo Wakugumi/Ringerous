@@ -3,6 +3,7 @@ class Ring:
         self.is_modulo = modulo is not None
         if self.is_modulo:
             self.n = modulo
+            if(modulo <= 0): raise Exception("modulo should be a natural number")
             self.elements = list(range(self.n))
         else:
             self.elements = elements
