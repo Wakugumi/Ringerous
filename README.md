@@ -6,8 +6,8 @@ Python GUI app to check a Ring's properties.
 
 ## Who wrote this crap
 
-[Ananda Risyad](https://github.com/Wakugumi)
 [Lawrance Cancerlon](https://github.com/Lawrance-Cancerlon)
+[Ananda Risyad](https://github.com/Wakugumi)
 [Yonathan Henry Christianto](https://github.com/henrychristianto)
 [Bryan Wu](https://github.com/BryanWu1020)
 
