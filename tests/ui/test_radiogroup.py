@@ -1,7 +1,7 @@
 import unittest
 import tkinter as tk
 from unittest.mock import Mock
-from ui.components.RadioGroup import RadioGroup
+from ui.RadioGroup import RadioGroup
 
 class TestRadioGroup(unittest.TestCase):
     def setUp(self):

@@ -1,6 +1,6 @@
 import unittest
 import tkinter as tk
-from ui.components.FlexContainer import FlexContainer
+from ui.FlexContainer import FlexContainer
 
 class TestFlexContainer(unittest.TestCase):
     def setUp(self):

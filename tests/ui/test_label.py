@@ -1,7 +1,7 @@
 import unittest
 import tkinter as tk
 from unittest.mock import Mock
-from ui.components.Label import Label
+from ui.Label import Label
 
 
 class TestLabel(unittest.TestCase):

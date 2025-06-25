@@ -1,7 +1,7 @@
 import unittest
 import tkinter as tk
 from unittest.mock import Mock
-from ui.components.Button import Button
+from ui.Button import Button
 
 class TestButton(unittest.TestCase):
     def setUp(self):
